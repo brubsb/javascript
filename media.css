@@ -35,6 +35,24 @@ button:hover {
 
 #escola{
     width: 80vh;
-    height: 80vh;
-    margin-top: -5vh;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+.seta {
+    position: absolute;
+    height: 3vh;
+    width: 5vw;
+    font-size: 20px;
+    background-color: #1a4068;
+    color: white;
+    margin-left: -47vw;
+    margin-top: -10vh;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seta:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

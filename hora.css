@@ -31,3 +31,21 @@ p {
     height: 60vh;
     margin: 7vh;
 }
+
+.seta {
+    position: absolute;
+    height: 3vh;
+    width: 5vw;
+    font-size: 20px;
+    background-color: #1a4068;
+    color: white;
+    margin-left: -47vw;
+    margin-top: -6vh;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seta:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
